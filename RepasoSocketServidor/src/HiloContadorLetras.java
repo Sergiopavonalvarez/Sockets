@@ -7,12 +7,6 @@ public class HiloContadorLetras implements Runnable {
 	private Thread hilo;
 	private Socket socket;
 	private int numcliente=0;
-	
-	
-	
-
-
-
 
 	public HiloContadorLetras(Socket socket) {
 		super();
@@ -23,17 +17,11 @@ public class HiloContadorLetras implements Runnable {
 	}
 
 
-
-
-
-
-
 	@Override
 	public void run() {
 		InputStreamReader entrada=null;
 		PrintStream salida=null;
 		
 	}
-	
 
 }
